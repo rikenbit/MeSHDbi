@@ -132,8 +132,8 @@ setMethod("dbInfo",
 ## species
 setMethod("species",
   "MeSHDb",
-  function(x) {
-    return(dbGetQuery(x$conn, 'SELECT value FROM METADATA where name = "SPECIES";')[1,])
+  function(object) {
+    return(dbGetQuery(object$conn, 'SELECT value FROM METADATA where name = "SPECIES";')[1,])
   }
 )
 

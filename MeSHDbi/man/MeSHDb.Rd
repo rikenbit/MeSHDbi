@@ -32,17 +32,17 @@
 
   \code{columns} shows which kinds of data can be returned for the
   \code{MeSHDb} object.
-  
+
   \code{keytypes} allows the user to discover which keytypes can be
   passed in to \code{select} or \code{keys} and the \code{keytype}
   argument.
-  
+
   \code{keys} returns keys for the database contained in the
   \code{MeSHDb} object .  This method is already documented in the keys manual page but is mentioned again here because it's usage with
   \code{select} is so intimate.  By default it will return the primary
   keys for the database, but if used with the \code{keytype} argument,
   it will return the keys from that keytype.
-  
+
   \code{select} will retrieve the data as a data.frame based on
   parameters for selected \code{keys}, \code{columns}, and \code{keytype} arguments.
 
@@ -66,10 +66,12 @@
   dbfile(x)
   dbschema(x, file = "", show.indices = FALSE)
   dbInfo(x)
-  species(x)
+  species(object)
 }
 \arguments{
   \item{x}{the \code{MeSHDb} object. But in practice this will mean an object derived from an \code{MeSHDb} object such as a \code{org.MeSH.Hsa.db}, \code{org.MeSH.Mmu.db} or many other org.MeSH.XXX.db (XXX means abbreviation of species name).}
+
+  \item{object}{same as x}
 
   \item{keys}{the keys to select records for from the database.  All possible keys are returned by using the \code{keys} method.}
 
