@@ -34,11 +34,15 @@ makeGeneMeSHPackage <- function(pkgname,
     PKGNAME=pkgname
   )
 
+    .isSingleString <- function (x){
+      is.character(x) && length(x) == 1L && !is.na(x)
+    }
+
    ## Should never have duplicates
    if (any(duplicated(names(symvals))))
        stop("'symvals' contains duplicated symbols")
    ## All symvals should by single strings (non-NA)
-   is_OK <- sapply(symvals, isSingleString)
+   is_OK <- sapply(symvals, .isSingleString)
    if (!all(is_OK)) {
        bad_syms <- paste(names(is_OK)[!is_OK], collapse="', '")
        stop("values for symbols '", bad_syms, "' are not single strings")

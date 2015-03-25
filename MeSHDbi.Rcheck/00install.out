@@ -1,0 +1,13 @@
+* installing *source* package 'MeSHDbi' ...
+** R
+** data
+** inst
+** preparing package for lazy loading
+Creating a new generic function for 'packageName' in package 'MeSHDbi'
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+   'MeSHDbi.Rnw' using 'UTF-8' 
+** testing if installed package can be loaded
+* DONE (MeSHDbi)

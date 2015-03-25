@@ -1,0 +1,73 @@
+%\VignetteIndexEntry{MeSH.db}
+\documentclass[11pt]{article}
+\usepackage{Sweave}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{cite}
+\usepackage{Sweave}
+
+\usepackage[numbers]{natbib}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\SweaveOpts{keep.source=FALSE,eps=FALSE,pdf=TRUE,png=TRUE,include=FALSE,concordance=TRUE}
+\usepackage{hyperref,url}
+\usepackage[utf8]{inputenc}
+\usepackage{comment}
+
+\setlength{\textheight}{8.5in}
+\setlength{\textwidth}{6in}
+\setlength{\topmargin}{-0.25in}
+\setlength{\oddsidemargin}{0.25in}
+\setlength{\evensidemargin}{0.25in}
+\newcommand{\Rpackage}[1]{{\textit{#1}}}
+
+\usepackage{Sweave}
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+\title{\bf A vignette for redirecting to the meshr package}
+\author{Koki Tsuyuzaki$^{1,4}$, Gota Morota$^2$, Takeru Nakazato$^3$ and Itoshi Nikaido$^4$.}
+\maketitle
+\begin{center}
+\noindent
+$^1$Department of Medical and Life Science, Tokyo University of Science.\\
+\noindent
+$^2$Department of Animal Sciences, University of Wisconsin-Madison.\\
+\noindent
+$^3$Database Center for Life Science, Research Organization of Information and Systems.\\
+\noindent
+$^4$Bioinformatics Research Unit, RIKEN Advanced Center for Computing and Communication.\\
+\end{center}
+
+\begin{center}
+{\tt k.t.the-answer@hotmail.co.jp, dritoshi@gmail.com}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\clearpage
+Description for any MeSH-related packages is written in the vignette of \Rpackage{meshr} package.
+
+\noindent
+Please follow the link below
+\newline\newline
+\url{http://www.bioconductor.org/packages/release/bioc/html/meshr.html}
+\newline\newline
+\noindent
+or just type
+\newline\newline
+\noindent
+> source("http://bioconductor.org/biocLite.R")
+
+\noindent
+> biocLite("meshr")
+
+\noindent
+> library("meshr")
+
+\noindent
+> vignette("MeSH")
+\newline\newline
+\noindent
+in R console window.
+
+\end{document}
