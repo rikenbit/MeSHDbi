@@ -7,6 +7,8 @@ R is free software and comes with ABSOLUTELY NO WARRANTY.
 You are welcome to redistribute it under certain conditions.
 Type 'license()' or 'licence()' for distribution details.
 
+  Natural language support but running in an English locale
+
 R is a collaborative project with many contributors.
 Type 'contributors()' for more information and
 'citation()' on how to cite R or R packages in publications.
@@ -20,9 +22,9 @@ Type 'q()' to quit R.
 > options(warn = 1)
 > library('MeSHDbi')
 
-Attaching package: 'MeSHDbi'
+Attaching package: ‘MeSHDbi’
 
-The following object is masked from 'package:utils':
+The following object is masked from ‘package:utils’:
 
     packageName
 
@@ -182,7 +184,7 @@ The following object is masked from 'package:utils':
 + 					author = "Koki Tsuyuzaki",
 + 					destDir = destination,
 + 					license="Artistic-2.0")
-Creating package in /var/folders/k0/tk8gl4bj2_v2mbjx80ydsznw0000gn/T//RtmpV4l30G/file1eb0658d8bd8/org.MeSH.Pae.db 
+Creating package in /var/folders/k0/tk8gl4bj2_v2mbjx80ydsznw0000gn/T//RtmpCQsigA/file2438727600e1/org.MeSH.Pae.db 
 [1] TRUE
 > 
 > 
@@ -267,7 +269,7 @@ Creating package in /var/folders/k0/tk8gl4bj2_v2mbjx80ydsznw0000gn/T//RtmpV4l30G
 > ###
 > options(digits = 7L)
 > base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
-Time elapsed:  1.966 0.075 2.166 0 0 
+Time elapsed:  1.95 0.076 2.128 0 0 
 > grDevices::dev.off()
 null device 
           1 
