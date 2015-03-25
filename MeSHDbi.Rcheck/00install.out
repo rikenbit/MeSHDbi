@@ -8,6 +8,5 @@ Creating a new generic function for ‘packageName’ in package ‘MeSHDbi’
 *** installing help indices
 ** building package indices
 ** installing vignettes
-   ‘MeSHDbi.Rnw’ using ‘UTF-8’ 
 ** testing if installed package can be loaded
 * DONE (MeSHDbi)
