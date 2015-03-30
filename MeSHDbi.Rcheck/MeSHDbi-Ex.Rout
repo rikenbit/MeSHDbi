@@ -158,16 +158,17 @@ The following object is masked from ‘package:utils’:
 > # We are also needed to prepare meta data as follows.
 > data(metaPAO1)
 > metaPAO1
-             NAME                                 VALUE
-1      SOURCEDATE                          31-July-2013
-2      SOURCENAME                                BLASTP
-3       SOURCEURL ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/
-4        DBSCHEMA                  org.Pae.PAO1.MeSH.db
-5 DBSCHEMAVERSION                                   1.0
-6        ORGANISM           Pseudomonas aeruginosa PAO1
-7         SPECIES                                      
-8         package                         AnnotationDbi
-9         Db type                               BLASTDb
+              NAME                                 VALUE
+1       SOURCEDATE                          31-July-2013
+2       SOURCENAME                                BLASTP
+3        SOURCEURL ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/
+4         DBSCHEMA                  org.Pae.PAO1.MeSH.db
+5  DBSCHEMAVERSION                                   1.0
+6         ORGANISM           Pseudomonas aeruginosa PAO1
+7          SPECIES                                      
+8          package                         AnnotationDbi
+9          Db type                               BLASTDb
+10     MESHVERSION                                  2015
 > 
 > ## sets up a temporary directory for this example
 > ## (users won't need to do this step)
@@ -184,7 +185,7 @@ The following object is masked from ‘package:utils’:
 + 					author = "Koki Tsuyuzaki",
 + 					destDir = destination,
 + 					license="Artistic-2.0")
-Creating package in /var/folders/k0/tk8gl4bj2_v2mbjx80ydsznw0000gn/T//Rtmp4gd2O9/file29131e5d4c33/org.MeSH.Pae.db 
+Creating package in /var/folders/k0/tk8gl4bj2_v2mbjx80ydsznw0000gn/T//RtmpPY8Qwj/filece723194057/org.MeSH.Pae.db 
 [1] TRUE
 > 
 > 
@@ -269,7 +270,7 @@ Creating package in /var/folders/k0/tk8gl4bj2_v2mbjx80ydsznw0000gn/T//Rtmp4gd2O9
 > ###
 > options(digits = 7L)
 > base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
-Time elapsed:  1.881 0.076 2.067 0 0 
+Time elapsed:  1.887 0.07 2.075 0 0 
 > grDevices::dev.off()
 null device 
           1 
