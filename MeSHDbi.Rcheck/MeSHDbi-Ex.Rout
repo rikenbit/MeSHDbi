@@ -168,7 +168,7 @@ The following object is masked from ‘package:utils’:
 7          SPECIES                                      
 8          package                         AnnotationDbi
 9          Db type                               BLASTDb
-10     MESHVERSION                                  2015
+10     MESHVERSION                                  2014
 > 
 > ## sets up a temporary directory for this example
 > ## (users won't need to do this step)
@@ -185,7 +185,7 @@ The following object is masked from ‘package:utils’:
 + 					author = "Koki Tsuyuzaki",
 + 					destDir = destination,
 + 					license="Artistic-2.0")
-Creating package in /var/folders/k0/tk8gl4bj2_v2mbjx80ydsznw0000gn/T//RtmpPY8Qwj/filece723194057/org.MeSH.Pae.db 
+Creating package in /var/folders/k0/tk8gl4bj2_v2mbjx80ydsznw0000gn/T//Rtmpz2zFmQ/file12ab7d4203bc/org.MeSH.Pae.db 
 [1] TRUE
 > 
 > 
@@ -270,7 +270,7 @@ Creating package in /var/folders/k0/tk8gl4bj2_v2mbjx80ydsznw0000gn/T//RtmpPY8Qwj
 > ###
 > options(digits = 7L)
 > base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
-Time elapsed:  1.887 0.07 2.075 0 0 
+Time elapsed:  1.938 0.073 2.124 0 0 
 > grDevices::dev.off()
 null device 
           1 
