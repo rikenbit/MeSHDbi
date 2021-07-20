@@ -1,0 +1,27 @@
+VERSION 1.30.0
+------------------------
+   o MeSH-related packages (MeSH.XXX.eg.db, MeSH.db, MeSH.AOR.db, and MeSH.PCR.db) were deprecated.
+   o The distribution of each SQLite file has been changed to the AnnotationHub-style.
+   o By using MeSHDbi, we can convert SQLite files acquired by the AnnotationHub's query function into MeSH objects, which can then be used for analysis using MeSH-related packages as before.
+   o makeGeneMeSHPackage was deprecated.
+   o .loadMeSHDbiPkg was deprecated.
+
+VERSION 1.4.0
+------------------------
+   o CITATION is added
+
+VERSION 1.2.3
+------------------------
+   o dbBeginTransaction is changed to dbBegin caused by Hadley's specification of RSQLite
+
+VERSION 1.2.2
+------------------------
+   o Addition of "meshVersion" function to validate which version of MeSH is used
+
+VERSION 1.0.1
+------------------------
+   o documentation improvements
+
+VERSION 0.99.0
+------------------------
+   o Package released

@@ -1,0 +1,16 @@
+import(methods)
+import(BiocGenerics)
+import(RSQLite)
+import(Biobase)
+importFrom(stats, na.omit)
+
+importClassesFrom(AnnotationDbi, AnnotationDb)
+
+importMethodsFrom(RSQLite, dbGetPreparedQuery)
+importMethodsFrom(AnnotationDbi, columns, keytypes, keys, select, dbconn, dbfile, dbschema, dbInfo, species)
+
+export(MeSHDb)
+
+exportClasses(MeSHDb)
+
+exportMethods(columns, keytypes, keys, select, dbconn, dbfile, dbschema, dbInfo, species, nomenclature, listDatabases, meshVersion)

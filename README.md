@@ -1,13 +1,18 @@
 # MeSHDbi
 
-DBI to construct MeSH-related package from sqlite file. Release version is available from [Bioconductor](http://www.bioconductor.org/packages/release/bioc/html/MeSHDbi.html)
+DBI to construct MeSHDb object from SQLite file.
 
 Installation
 ======
 ~~~~
-git clone https://github.com/rikenbit/MeSHDbi_devel/
-cd MeSHDbi_devel
+git clone https://github.com/rikenbit/MeSHDbi/
+cd MeSHDbi
 R CMD INSTALL MeSHDbi
+~~~~
+or type the code below in the R console window
+~~~~
+library(devtools)
+devtools::install_github("rikenbit/MeSHDbi")
 ~~~~
 
 References
