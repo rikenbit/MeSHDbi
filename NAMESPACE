@@ -1,5 +1,4 @@
 import(methods)
-import(BiocGenerics)
 import(RSQLite)
 import(Biobase)
 importFrom(stats, na.omit)
